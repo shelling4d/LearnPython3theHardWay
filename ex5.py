@@ -6,7 +6,10 @@ my_eyes = 'Blue'
 my_teeth = 'White'
 my_hair = 'Brown'
 
+
 print(f"Let's talk about {my_name}.")
+#和print("Let's talk about",my_name,".")的区别是后者会自动在三段之间加空格
+
 print(f"He's {my_height} inches tall.")
 print(f"He's {my_weight} pounds heavy.")
 print("Actually that's not too heavy.")
